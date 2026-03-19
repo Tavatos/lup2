@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+db.sqlite3
+*.log
+.DS_Store
+.vscode/
+
+# Django media and static
+media/
+staticfiles/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
